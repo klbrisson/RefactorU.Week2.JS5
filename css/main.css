@@ -1,4 +1,6 @@
 * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -11,41 +13,23 @@ body {
 }
 
 .container {
-  width: 70%;
-  margin: 0 auto;
-}
-
-.text-box {
-  background-color: #FFF;
-  border: 1px solid #7f8c8d;
-  padding: 20px;
-  height: 300px;
-  position: relative;
-}
-
-.text {
-  border: 1px solid #000;
-  width: 600px;
-  height: 200px;
-  margin: auto;
-  position: relative;
   background-color: grey;
 }
-.text:hover {
-  background-color: rgba(52, 152, 219, 0.15);
-}
 
-.inputText {
-  border: 1px solid #000;
-  width: 600px;
+.textBoxStyle {
+  width: 500px;
   height: 200px;
-  display: none;
-  margin: auto;
+  border: 1px solid black;
+  padding: 5px;
+  background-color: white;
 }
 
-.submit {
-  background-color: grey;
-  width: 100px;
-  height: 30px;
-  display: none;
+.textBoxStyle:hover {
+  background-color: #C7DEED;
+}
+
+textarea {
+  padding: 0;
+  outline: 0;
+  border: 0;
 }
